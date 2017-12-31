@@ -1,0 +1,4 @@
+
+An exercises to create a live analog clock with moving clock hands based on real time.
+
+OBJECTIVE: Use Javascript to take in the current time to update the hour, minute, and second hands in an analog clock.
