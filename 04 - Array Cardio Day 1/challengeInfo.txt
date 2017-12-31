@@ -1,0 +1,4 @@
+
+Practice in Array Methods
+
+OBJECTIVE: Using the data provided, use the array methods .filter(), .map(), .sort(), reduce() to get the desired results.
