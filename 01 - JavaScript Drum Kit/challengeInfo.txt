@@ -1,0 +1,4 @@
+
+An exercises to create a 'Drum Kit' on your website.
+
+OBJECTIVE: Allow the clicking of keys on your keyboard to activate corresponding audio files and CSS changes to divs representing those keys.
