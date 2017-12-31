@@ -1,0 +1,4 @@
+
+Update CSS variables and JS.
+
+OBJECTIVE: Use Javascript update a variable's CSS on a page through input interaction.
