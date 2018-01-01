@@ -1,0 +1,4 @@
+
+AJAX Autocomplete Search
+
+OBJECTIVE: Using AJAX, create functionality that gives search options based on what is being typed in the input box.
