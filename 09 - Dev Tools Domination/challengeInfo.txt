@@ -1,0 +1,4 @@
+
+Dev Tools and Console Tricks
+
+OBJECTIVE: Console tricks include .info(), .error(), .warn(), .test(), .assert(), .clear(), .dir(), (.time() & .timeEnd()), (group() & .groupEnd()), .count(), and .table().
