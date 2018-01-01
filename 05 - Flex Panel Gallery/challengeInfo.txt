@@ -1,0 +1,4 @@
+
+Creating a Flex Gallery
+
+OBJECTIVE: Use a mixture of CSS/javascript for flexbox, transition, and event changes.
