@@ -1,0 +1,4 @@
+
+Custom styling for a Video Player in HTML 5
+
+OBJECTIVE: Build a custom interface with a pause/play button, volume slider, video speed slider, and skip buttons (by seconds).
