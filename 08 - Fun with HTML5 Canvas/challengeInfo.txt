@@ -1,0 +1,4 @@
+
+HTML 5 Canvas
+
+OBJECTIVE: Using the data provided, use the array methods .some(), .every(), .find(), .findIndex() to get the desired results.
