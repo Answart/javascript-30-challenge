@@ -1,0 +1,4 @@
+
+Holding shift checks all boxes from first checked to last checked. (think selecting multiple email)
+
+OBJECTIVE: In a list of checkbox inputs, select all other checkboxes that are between the first checkbox and most recently checked checkbox. (say that five times fast)
