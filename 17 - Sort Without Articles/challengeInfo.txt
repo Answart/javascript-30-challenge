@@ -1,0 +1,5 @@
+
+Working with Array.sort()
+
+
+OBJECTIVE: Sort an array in alphabetical order with where the sort ignores the words 'A', 'The', or 'An' at the beginning of the string.
