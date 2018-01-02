@@ -1,0 +1,4 @@
+
+Build KONAMI CODE using Key Sequence Detection
+
+OBJECTIVE: Use key sequencing detection to check against a secret code which will fire off an affect on your website.
