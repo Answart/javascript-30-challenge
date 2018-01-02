@@ -1,0 +1,8 @@
+
+Understand Local Storage and Event Delegation
+
+
+OBJECTIVE: Use local storage to remember state on refresh and event delegation to handle moments that, depending on certain specifics, occur on a website.
+
+
+Addition: make button clear/check/uncheck all, delete item/all
