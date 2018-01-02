@@ -1,0 +1,5 @@
+
+Link Highlight animation
+
+
+OBJECTIVE: Based on what you are hovering over, a 'pill' animation will highlight the text and follow your mouse as you move the mouse around.
