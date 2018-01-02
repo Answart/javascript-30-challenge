@@ -1,0 +1,5 @@
+
+Useing mouse move with text shadow
+
+
+OBJECTIVE: Listen for a mouse move event on item and, depending on the change, how the text shadow should alter itself.
