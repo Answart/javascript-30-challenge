@@ -1,0 +1,5 @@
+
+Work with Speech Synthesis
+
+
+OBJECTIVE: Use browser SpeechSynthesisUtterance (from the window) to have written words by spoken aloud on the website.
