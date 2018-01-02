@@ -1,0 +1,4 @@
+
+Animation on scroll position.
+
+OBJECTIVE: Have a picture animate into existence (100%) as you scroll toward it's position (50% is on screen).
