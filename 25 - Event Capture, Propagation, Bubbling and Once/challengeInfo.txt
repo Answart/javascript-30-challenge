@@ -1,0 +1,5 @@
+
+Working with AddEventListeners during edge cases
+
+
+OBJECTIVE: Learning addEventListener use in cases where there is event capturing/bubbling, propagation, and when using the 'once' property.

@@ -39,6 +39,25 @@
 
 <button></button>
 <script>
+  const divs = document.querySelectorAll('div');
+
+  function logText(e) {
+    console.log('logText', this.classList.value, this);
+    // .stopPropagation() calls for no bubbling, only effect one clicked.
+    e.stopPropagation();
+  }
+
+  // bubbling up: where clicking on one div also clicks on divs it is from - starting at original div. it ripples all the way up to the top of document and trigger clicks on those elements as well.
+  divs.forEach(div => div.addEventListener('click', logText, {
+    // writing 'true' in options object tells it run on capture down NOT bubble up. by DEFAULT it is 'false'.
+    capture: false,
+    // once listens for a click, then unbinds itself. will listen to event once, then remove event permanently. EX: used for store checkout buttons.
+    once: true
+  }));
+
+  // capture/bubbling: when clicking on an element, it first ripples down to elements inside it then 'captures' all of events and stores them. THEN, starting at the bottom, triggers click events as it 'bubbles' up.
+  // document.body.addEventListener('click', logText)
+
 
 </script>
 </body>
