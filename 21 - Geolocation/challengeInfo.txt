@@ -1,0 +1,5 @@
+
+Use Geolocation (lat/long) heading and speed.
+
+
+OBJECTIVE: Use an iOS simulator and geolocation to grab one's heading and speed.
