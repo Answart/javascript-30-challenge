@@ -1,0 +1,5 @@
+
+Make Photobooth using Javascript
+
+
+OBJECTIVE: Grab your webcam video feed, pipe it through a CANVAS element, then alter the video with fun effects. 
