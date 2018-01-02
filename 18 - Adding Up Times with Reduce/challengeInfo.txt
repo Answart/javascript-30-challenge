@@ -1,0 +1,5 @@
+
+Adding up Time using Reduce
+
+
+OBJECTIVE: Add up total number of minutes, seconds, hours listed in line items. Pull the time out of the time, convert them to numbers, then convert to minutes, add it all up, figure out total time, then log that time.
