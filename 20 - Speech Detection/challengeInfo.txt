@@ -1,0 +1,9 @@
+
+Work with Speech Detection
+
+
+OBJECTIVE: Use browser speech recognition (from the window) to have your spoken words apear live on the site.
+
+
+https://awni.github.io/speech-recognition/
+ATTENTION: Speech Detection has been disabled and is not up as of Jan 2, 2018.
