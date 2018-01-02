@@ -1,0 +1,5 @@
+
+Understanding difference between reference and copy
+
+
+OBJECTIVE: Using stings, numbers, and booleans, understand what makes reference and copy difference to prevent future bugs.

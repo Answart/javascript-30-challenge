@@ -1,20 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>JS Reference VS Copy</title>
 </head>
+
 <body>
 
   <script>
     // start with strings, numbers and booleans
+    let age = 100;
+    let age2 = age;
+    console.log(age, age2);
+    age = 200;
+    console.log(age, age2);
+
+    let name = 'alex';
+    let name2 = name;
+    console.log(name, name2);
+    name = 'alexandra';
+    console.log(name, name2);
+
 
     // Let's say we have an array
     const players = ['Wes', 'Sarah', 'Ryan', 'Poppy'];
 
     // and we want to make a copy of it.
+    const team = players;
+    console.log(players);
 
     // You might think we can just do something like this:
+    // team[3] = 'Lux'; // Updating an array WILL reference back!
+    // console.log(players);
 
     // however what happens when we update that array?
 
@@ -25,12 +43,19 @@
     // Why? It's because that is an array reference, not an array copy. They both point to the same array!
 
     // So, how do we fix this? We take a copy instead!
+    const team2 = players.slice(); // Updating an array WILL reference back!
+    console.log(players);
 
     // one way
 
     // or create a new array and concat the old one in
+    const team3 = [].concat(players);
 
     // or use the new ES6 Spread
+    const team4 = [...players];
+    team[4] = 'heee haaw';
+    console.log(team4);
+    const team5 = Array.from(players);
 
     // now when we update it, the original one isn't changed
 
@@ -43,14 +68,50 @@
     };
 
     // and think we make a copy:
+    // const captain = person;
+    // captain.number = 99;
 
     // how do we take a copy instead?
+    const capt2 = Object.assign({}, person, {
+      number: 99,
+      age: 12
+    });
 
     // We will hopefully soon see the object ...spread
+    // const capt3 = {...person}; // Object spread doesnt work in JS yet
+    // But this is shallow (one object deep)
 
     // Things to note - this is only 1 level deep - both for Arrays and Objects. lodash has a cloneDeep method, but you should think twice before using it.
 
+    const alex = {
+      name: 'Alexandra',
+      age: 789,
+      social: {
+        twitter: '@dev',
+        facebook: 'blahalbah.dev'
+      }
+    };
+    console.clear();
+    console.log('alex', alex);
+    const dev = Object.assign({}, alex)
+    console.log('dev', dev);
+    console.clear();
+    dev.name = 'Alex'
+    console.log('dev/alex name change:', dev, alex);
+    // dev.social.twitter = '@coolman';
+    console.log('dev/alex twitter change:', dev, alex);
+    // Making deep changes on a clone made from .assign still references the original. find a cloneDeep (if you must).
+    console.clear();
+    // Poorman's deepclone.
+    const dev2 = JSON.parse(JSON.stringify(alex));
+    // JSON.stringify(alex) turns the object into a string.
+    // you then JSON.parse() the string to have it become its own object.
+    console.log('dev2/alex name change:', dev2, alex);
+    dev2.social.twitter = '@coolman';
+    console.log('dev2/alex twitter change:', dev2, alex);
+    // This will prevent referencing.
   </script>
 
 </body>
+
 </html>
