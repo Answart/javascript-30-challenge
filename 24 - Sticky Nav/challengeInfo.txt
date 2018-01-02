@@ -1,0 +1,5 @@
+
+Fixed Nav Bar on scroll down
+
+
+OBJECTIVE: When you scrolling down the page far enough, update the nav bar with a class where the bar will become fixed at the top and updated with a wider logo element.
