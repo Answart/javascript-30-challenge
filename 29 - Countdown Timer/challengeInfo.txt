@@ -1,0 +1,9 @@
+
+Create countdown timer
+
+
+OBJECTIVE: Create ability to add timers and view an individual timer based on the element that contains that certain timer. Have time (minutes/seconds) show correctly.
+
+Extra:
+- add animations
+- add hours, etc
