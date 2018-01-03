@@ -1,0 +1,7 @@
+
+Follow Along Dropdown
+
+
+OBJECTIVE: Expanding from Challenge 22 - Based on what you are hovering over, a div will add/remove classes that will show/hide info and alter it's background size/position based on updated coords.
+
+Functionality seen when hovering over Products, Developers, and Company tabs in https://stripe.com/.
