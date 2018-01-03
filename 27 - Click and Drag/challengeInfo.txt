@@ -1,0 +1,11 @@
+
+Create Click and Drag from scratch
+
+
+OBJECTIVE: When you click and drag on elements with your mouse, allow elements to move as if you were scrolling.
+
+When first clicking down, add an 'active' class and note the coords of that click. When mouse is moving (while mousedown), move the div according to the difference (by pixels) in current mouse position from original position.
+
+Try Extra:
+- instead of dragging, try flicking.
+- use similar functionality to create own drag and drop.
