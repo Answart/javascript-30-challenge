@@ -1,0 +1,10 @@
+
+Create Whack a Mole
+
+
+OBJECTIVE: Work out how long a mole stands up and for how long. Adding points when a mole is clicked in time.
+
+
+Extra:
+- all time scoreboard saved in localStorage to save high-scores
+- implement levels (change times)
