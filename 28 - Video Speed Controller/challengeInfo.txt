@@ -1,0 +1,5 @@
+
+Create a video speed bar
+
+
+OBJECTIVE: Work with mouse move events and HTML 5 video to alter video speeds with a speed bar.
